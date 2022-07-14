@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake JS Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftSide">
+        <h1>Snake 🐍</h1>
+        <h4>Instruction</h4>
+        <ol>
+          <li>Click the reset button to restart the game.</li>
+          <br />
+          <li>
+            Use arrow keys (⬆️⬇️⬅️➡️) to control the movement of the snake.
+          </li>
+          <br />
+          <li>
+            The game is over if the snake bump into the border or eat his own
+            body.
+          </li>
+        </ol>
+      </div>
+      <div id="rightSide">
+        <!-- Using a canvas element for the game board of the snake. -->
+        <canvas id="gameBoard" height="500" width="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="resetBtn">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>

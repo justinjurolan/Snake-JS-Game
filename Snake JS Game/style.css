@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: black;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+#leftSide {
+  width: 30%;
+  font-family: 'Press Start 2P', cursive;
+  color: lightgreen;
+}
+#leftSide h1,
+h4 {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+h4,
+li {
+  font-size: 25px;
+}
+#rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: lightgreen;
+}
+#gameBoard {
+  border: 3px solid green;
+}
+#scoreText {
+  font-size: 60px;
+  margin: 10px;
+}
+#resetBtn {
+  font-size: 25px;
+  padding: 10px 30px;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
